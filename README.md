@@ -97,12 +97,10 @@ Each node acts independently and is responsible for:
 ## 🚀 How to Run
 
 ### Windows Node (C)
-```bash
 gcc NodeAA.c -o nodeA
 ./nodeA
 
 ### Linux Node (Jaba)
-'''bash
 javac NodeB2.java
 java NodeB2
 
