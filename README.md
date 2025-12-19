@@ -72,15 +72,3 @@ concepts.
 
 \- ✅ Lightweight and extensible design
 
-
-
----
-
-
-
-\## 🏗️ High-Level Architecture
-
-
-
-
-
