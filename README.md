@@ -12,7 +12,7 @@ Windows and Linux nodes using C and Java.
 
 
 
-\## 📌 Overview
+\📌 Overview
 
 
 
@@ -71,4 +71,42 @@ concepts.
 \- ✅ Real environment testing
 
 \- ✅ Lightweight and extensible design
+
+
+
+Each node acts independently and is responsible for:
+- Establishing a connection
+- Sending messages
+- Receiving responses
+- Handling platform-specific constraints internally
+
+---
+
+## 🛠️ Technology Stack
+
+- **Languages:** C, Java
+- **Operating Systems:** Windows, Linux
+- **Core Concepts:**
+  - Inter-platform communication
+  - Client–server / peer-to-peer messaging
+  - Platform abstraction
+  - Networking fundamentals
+
+---
+
+## 🚀 How to Run
+
+### Windows Node (C)
+```bash
+gcc NodeAA.c -o nodeA
+./nodeA
+
+### Linux Node (Jaba)
+'''bash
+javac NodeB2.java
+java NodeB2
+
+Ensure both nodes are configured with compatible IP addresses and ports
+before execution.
+
 
